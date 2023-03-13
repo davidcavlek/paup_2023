@@ -31,7 +31,7 @@ namespace paup_2023.Controllers
         {
             ViewBag.Ime = "Joško";
             ViewBag.Prezime = "Lokas";
-            ViewBag.GodinaRod = "1975";
+            ViewBag.GodinaRod = "1970";
             return View();
         }
         public string VratiVrijeme()
