@@ -29,7 +29,7 @@ namespace paup_2023.Controllers
         }
         public ActionResult Student()
         {
-            ViewBag.Ime = "Miro";
+            ViewBag.Ime = "Josko";
             ViewBag.Prezime = "Lokas";
             ViewBag.GodinaRod = "2020";
             return View();
