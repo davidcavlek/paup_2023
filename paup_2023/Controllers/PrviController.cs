@@ -29,10 +29,14 @@ namespace paup_2023.Controllers
         }
         public ActionResult Student()
         {
-            ViewBag.Ime = "Josko";
+            ViewBag.Ime = "Joško";
             ViewBag.Prezime = "Lokas";
-            ViewBag.GodinaRod = "2020";
+            ViewBag.GodinaRod = "1975";
             return View();
+        }
+        public string VratiVrijeme()
+        {
+            return DateTime.Now.ToString();
         }
     }
 }
